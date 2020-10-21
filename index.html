@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InstaClone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="instaclone-wrapper">
+        <div class="instaclone-phone">
+            <div class="image-cover">
+                <img class="cover" src="/img/home-phones.png" alt="Static Image">
+                <div class="inside">
+                    <ul class="images" data-slide="main">
+
+                        <li><img src="/img/static01.jpg" alt="Static Image 01"></li>
+                        <li><img src="/img/static03.jpg" alt="Static Image 03"></li>
+                        <li><img src="/img/static04.jpg" alt="Static Image 04"></li>
+                        <li><img src="/img/static05.jpg" alt="Static Image 05"></li>
+                        <li><img src="/img/static02.jpg" alt="Static Image 02"></li>
+                       
+                    </ul>
+                </div>
+                
+            </div>
+
+        </div>
+
+        <div class="instaclone-login">
+            <div class="group01">
+                <h1>InstaClone</h1>
+                <form class="form" id="login-form">
+                    <div class="box-label">
+
+                        <label class="label">
+                            <input class="label-input" aria-required="true" autocapitalize="off" autocorrect="off" maxlength="75" name="username" type="text" placeholder=" " id="uname" value="" oninput=typingU()>
+                            <span class="label-txt">Telefone, nome de usuário ou email</span>
+                        </label>
+    
+                        <label class="label">
+                            <input class="label-input" aria-required="true" autocapitalize="off" autocorrect="off" maxlength="75" name="password" type="password" placeholder=" " id="pass" value="" oninput=typingP()>
+                            <span class="label-txt">Senha</span>
+                            <button type="button" class="btn-hide" id="btn-hide" disabled>Mostrar</button>
+                        </label>
+                        
+                        <div class="button">
+                            
+                            <button class="btn01" disabled type="submit" id="btn-change">Entrar</button>
+                           
+                        </div>
+                        
+                        <div class="middle-block">
+                            <div class="bar"></div>
+                            <span>ou</span>
+                            <div class="bar"></div>
+                        </div>
+    
+                        <buttton class="btn02">
+                            <img src="/img/facebook-icon.png" alt="Facebook Icon">
+                            <span class="span-btn">Entrar com o Facebook</span>
+                        </buttton>
+    
+                    </div>
+    
+                    <a class="forget" href="#">Esqueceu a senha?</a>
+                </form>
+            </div>
+
+            <div class="group01">
+                <p class="phrase">Não tem uma conta?
+                    <a class="join" href="#">Cadastre-se</a>
+                </p>
+            </div>
+    
+            <div class="group02">
+                <p>Obtenha o aplicativo</p>
+                <div>
+                    <a href="https://itunes.apple.com/app/instagram/id389801252?pt=428156&ct=igweb.loginPage.badge&mt=8&vt=lo">
+                        <img src="/img/app-store.png" alt="Disponível na App Store">
+                    </a>
+
+                    <a href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=utm_source%3Dinstagramweb%26utm_campaign%3DloginPage%26ig_mid%3D38355226-0956-4CED-BFB7-64426769105D%26utm_content%3Dlo%26utm_medium%3Dbadge">
+                        <img src="/img/google-play.png" alt="Disponível no Google Play">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-menu">
+            <nav class="footer-nav">
+                <ul>
+                    <li>
+                        <a href="#">sobre</a>
+                    </li>
+                    <li>
+                        <a href="#">ajuda</a>
+                    </li>
+                    <li>
+                        <a href="#">imprensa</a>
+                    </li>
+                    <li>
+                        <a href="#">api</a>
+                    </li>
+                    <li>
+                        <a href="#">carreiras</a>
+                    </li>
+                    <li>
+                        <a href="#">privacidade</a>
+                    </li>
+                    <li>
+                        <a href="#">termos</a>
+                    </li>
+                    <li>
+                        <a href="#">localizações</a>
+                    </li>
+                    <li>
+                        <a href="#">contas mais relevantes</a>
+                    </li>
+                    <li>
+                        <a href="#">hashtags</a>
+                    </li>
+                    <li>
+                        <a href="#">idioma</a>
+                    </li>
+                </ul>
+            </nav>
+
+         <span>© 2020 Instaclone do Facebook</span>
+        </div>
+        
+    </footer>
+
+    <script src="/plugins/simple-slide.js"></script>
+    <script src="/scripts.js"></script>
+</body>
+</html>
